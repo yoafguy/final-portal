@@ -9,7 +9,7 @@ import governor from './5.JPG'
 
 function Signin() {
     const navigate = useNavigate();
-    const [phoneNo, setPhoneNo] = useState('')
+  
     const [Nin, setNin] = useState('')
     const [password, setPassword] = useState('')
 ;
@@ -40,9 +40,9 @@ function Signin() {
                  e.preventDefault();
                  ;
               }}>
-                <h5>Phone Number:</h5>
+                <h5>NIN:</h5>
                
-                <input type='tel' value={phoneNo} onChange={e => setPhoneNo(e.target.value)} />
+                <input type='tel' value={Nin} onChange={e => setNin(e.target.value)} />
 
                 <h5>Password:</h5>
                 <input type='password' value={password} onChange={e => setPassword(e.target.value)} />
