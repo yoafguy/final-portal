@@ -38,7 +38,7 @@
 .login__signInButton{
         border-radius: 2px;
         width: 100%;
-        height: 35px;
+        height: 40px;
         border: 1px solid;
         margin-top: 10px;
         border-color: rgb(169, 169, 169);
@@ -64,4 +64,5 @@
 .congratsP{
     text-align: center;
     font-style: italic;
+    
 }

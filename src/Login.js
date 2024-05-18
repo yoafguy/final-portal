@@ -27,10 +27,6 @@ function Login() {
     
   return (
     <div className='login'>
-        <Link to='/home'>
-        <img className='login__logo' src={AmaLogo} alt="AmaLogo" />
-        </Link>
-
         <div className='login__container'>
             <h1>Create Account</h1>
           
@@ -40,7 +36,7 @@ function Login() {
               }}>
                 <h5>Phone Number:</h5>
                
-                <input type='tel' value={phoneNo} onChange={e => setP honeNo(e.target.value)} />
+                <input type='tel' value={phoneNo} onChange={e => setPhoneNo(e.target.value)} />
 
                 <h5>Choose Password:</h5>
                 <input type='password' value={password} onChange={e => setPassword(e.target.value)} />
@@ -49,13 +45,6 @@ function Login() {
                 </Link>
                
             </form>
-            {/* <p>
-             Already have account with us
-            </p>
-           
-            <button 
-                 className='login__signInButton' type='submit' onClick={() => signIn()}>Sign in</button> */}
-        <img src={governor} alt="banner" style={{marginTop: '10px', width: '100%'}} />
         </div>
        
     

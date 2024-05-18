@@ -34,7 +34,7 @@ function CreateProfile() {
 
         <div className='createProfile__container'>    
            
-        <img src={governor} alt="banner" style={{marginTop: '10px', width: '100%'}} />
+        <img src={governor} alt="banner" style={{marginTop: '10px', width: '70%', marginLeft: '40px'}} />
         <h3 className='congrats'>Congratulations</h3>
         <p className='congratsP'>The details you provided are correct,however you can create an account with us with your phone number and choose a password below.</p>
     <Link to='/login'>  

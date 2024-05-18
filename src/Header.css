@@ -1,0 +1,106 @@
+
+   
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10px;  /* Further reduced padding */
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: -50px;
+
+  
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .login__logo {
+    height: 50px;
+    /* Increased logo height */
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .nav-button {
+    background-color: green;
+    padding: 50px;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;  /* Adjusted font size */
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  
+  .nav-button:hover {
+    background-color: rgb(6, 53, 11);
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    position: absolute;
+    top: 45px;  /* Adjusted based on reduced header height */
+    right: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .login__logo {
+      height: 45px;  /* Increased logo height for mobile view */
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .menu.open {
+      display: flex;
+      
+    }
+  
+    .nav-button {
+      padding: 4px 8px;  /* Further reduced padding */
+      font-size: 12px;  /* Adjusted font size */
+      margin-left: 0;
+    
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .login__logo {
+      height: 60px;  /* Further adjustment for very small screens */
+    }
+    .menu-icon{
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+  }
+  

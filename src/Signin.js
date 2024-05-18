@@ -31,9 +31,7 @@ function Signin() {
     
   return (
     <div className='login'>
-        <Link to='/home'>
-        <img className='login__logo' src={AmaLogo} alt="AmaLogo" />
-        </Link>
+        
 
         <div className='login__container'>
             <h1>Sign in </h1>
@@ -59,7 +57,7 @@ function Signin() {
            
             <button 
                  className='login__signInButton' type='submit' onClick={() => signIn()}>Sign in</button> */}
-        <img src={governor} alt="banner" style={{marginTop: '10px', width: '100%'}} />
+  
         </div>
        
     
