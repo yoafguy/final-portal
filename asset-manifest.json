@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/YouthPortal-React/static/css/main.a2306f37.css",
+    "main.css": "/YouthPortal-React/static/css/main.603350a2.css",
     "main.js": "/YouthPortal-React/static/js/main.a2bc7024.js",
     "static/js/787.38f16daf.chunk.js": "/YouthPortal-React/static/js/787.38f16daf.chunk.js",
     "static/media/blacklogo1.png": "/YouthPortal-React/static/media/blacklogo1.19609577afc5ccd80153.png",
     "static/media/5.JPG": "/YouthPortal-React/static/media/5.9e9fc26af23679be2379.JPG",
     "index.html": "/YouthPortal-React/index.html",
-    "main.a2306f37.css.map": "/YouthPortal-React/static/css/main.a2306f37.css.map",
+    "main.603350a2.css.map": "/YouthPortal-React/static/css/main.603350a2.css.map",
     "main.a2bc7024.js.map": "/YouthPortal-React/static/js/main.a2bc7024.js.map",
     "787.38f16daf.chunk.js.map": "/YouthPortal-React/static/js/787.38f16daf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2306f37.css",
+    "static/css/main.603350a2.css",
     "static/js/main.a2bc7024.js"
   ]
 }
