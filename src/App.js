@@ -1,7 +1,7 @@
 import React from 'react'
 import LandingPage from './LandingPage'
 import Register from './Register';
-import Login from './Login';
+
 import Header from './Header';
 import Terms from './Terms'
 import './App.css'
