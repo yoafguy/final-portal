@@ -1,9 +1,11 @@
 import React from 'react'
-import CreateProfile from './CreateProfile'
-import SignUp from './SignUp'
+import LandingPage from './LandingPage'
+import Register from './Register';
 import Login from './Login';
-import Signin from './Signin';
 import Header from './Header';
+import Terms from './Terms'
+import './App.css'
+
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
@@ -16,17 +18,18 @@ function App() {
           
         <Route path="/*" element={<>
           
-            <CreateProfile />
+            <LandingPage />
           </>} />
-          <Route path="/login" element={<>
+       
+        <Route path="/Register" element={<>
+          
+          <Register/>
+        </>} />
+        <Route path="/terms" element={<>
            
-          <Login/>
-          
-        </>} />
-        <Route path="/signin" element={<>
-          
-          <Signin/>
-        </>} />
+           <Terms />
+           
+         </>} />
       
          
          
