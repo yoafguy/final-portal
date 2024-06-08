@@ -1,3 +1,4 @@
+
 .pt30 {
     padding-top: 30px; }
   
@@ -119,6 +120,7 @@
         line-height: 50px; }
   
   .ufg-main-container {
+    margin-top: -100px;
     padding: 170px 0; }
   
   .ugf-form .input-block + .input-block {
@@ -238,6 +240,7 @@
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
@@ -387,9 +390,12 @@
       font-weight: 700;
       color: #1c2437;
       text-transform: uppercase;
+      margin-left: 10px;
       font-family: "Roboto", sans-serif; }
     .ugf-form .input-block .form-group .form-control {
       height: 60px;
+      margin-left: 5px;
+      margin-right: 40px;
       border-radius: 5px;
       border: 1px solid rgba(0, 0, 0, 0.12);
       -webkit-box-shadow: none;
@@ -877,4 +883,9 @@
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%; } }
+  .questionsLabel{
+    
   
+    margin-left: 5px;
+    font-size: 15px;
+  }

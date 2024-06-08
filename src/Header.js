@@ -37,7 +37,7 @@ function Header() {
           </div>
         ) : (
           <Link to='/home'>
-            <button className='nav-button'>Back to Home</button>
+            <button className='nav-button'>Sign In</button>
           </Link>
         )}
       </div>

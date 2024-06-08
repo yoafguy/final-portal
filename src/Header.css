@@ -10,7 +10,8 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
 
-    margin-top: -50px;
+    margin-top:0px;
+    margin-bottom: 0px;
 
   
   }
@@ -29,6 +30,7 @@
   
   .menu-icon {
     display: none;
+    margin-bottom: 30px;
     font-size: 24px;
     cursor: pointer;
   }
@@ -39,11 +41,11 @@
     color: #fff;
     border: none;
     padding: 4px 8px;
-    border-radius: 5px;
     cursor: pointer;
     font-size: 15px;  /* Adjusted font size */
     margin-left: 10px;
     margin-top: 40px;
+    margin-bottom: 20px;
   }
   
   .nav-button:hover {
