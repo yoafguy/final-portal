@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/YouthPortal-React/static/css/main.46247adb.css",
-    "main.js": "/YouthPortal-React/static/js/main.0d3a742f.js",
-    "static/js/787.38f16daf.chunk.js": "/YouthPortal-React/static/js/787.38f16daf.chunk.js",
-    "static/media/blacklogo1.png": "/YouthPortal-React/static/media/blacklogo1.19609577afc5ccd80153.png",
-    "static/media/5.JPG": "/YouthPortal-React/static/media/5.9e9fc26af23679be2379.JPG",
-    "index.html": "/YouthPortal-React/index.html",
-    "main.46247adb.css.map": "/YouthPortal-React/static/css/main.46247adb.css.map",
-    "main.0d3a742f.js.map": "/YouthPortal-React/static/js/main.0d3a742f.js.map",
-    "787.38f16daf.chunk.js.map": "/YouthPortal-React/static/js/787.38f16daf.chunk.js.map"
+    "main.css": "/final-portal/static/css/main.58ed0e21.css",
+    "main.js": "/final-portal/static/js/main.df829abf.js",
+    "static/js/787.38f16daf.chunk.js": "/final-portal/static/js/787.38f16daf.chunk.js",
+    "static/media/blacklogo1.png": "/final-portal/static/media/blacklogo1.19609577afc5ccd80153.png",
+    "static/media/5.JPG": "/final-portal/static/media/5.9e9fc26af23679be2379.JPG",
+    "index.html": "/final-portal/index.html",
+    "main.58ed0e21.css.map": "/final-portal/static/css/main.58ed0e21.css.map",
+    "main.df829abf.js.map": "/final-portal/static/js/main.df829abf.js.map",
+    "787.38f16daf.chunk.js.map": "/final-portal/static/js/787.38f16daf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46247adb.css",
-    "static/js/main.0d3a742f.js"
+    "static/css/main.58ed0e21.css",
+    "static/js/main.df829abf.js"
   ]
 }
