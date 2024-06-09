@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './CreateProfile.css';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import Banner1 from './5.JPG'
+// import Banner1 from './5.JPG'
 import arrow from './arrow.png'
 
 
