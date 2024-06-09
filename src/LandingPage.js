@@ -6,7 +6,7 @@ import Banner1 from './5.JPG'
 import arrow from './arrow.png'
 
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function CreateProfile() {
     const navigate = useNavigate();

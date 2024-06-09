@@ -384,6 +384,7 @@
   
   .ugf-form .input-block .form-group {
     margin-bottom: 25px;
+    padding:5px;
     width: 100%; }
     .ugf-form .input-block .form-group label {
       font-size: 1.2rem;

@@ -3,12 +3,14 @@ import './Register.css';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
-function Register() {
+const Register = () => {
     const [associationVisible, setAssociationVisible] = useState(false);
 
-    const handleAssociationChange = (event) => {
-        setAssociationVisible(event.target.value === 'Yes');
+    const handleAssociationChange = (e) => {
+        setAssociationVisible(e.target.value === 'Yes');
     };
+
+ 
 
     return (
         <div className="ugf-bg ufg-main-container">
@@ -25,6 +27,7 @@ function Register() {
                                             <div className="form-group">
                                                 <label htmlFor="Firstname">First Name</label>
                                                 <input type="text" name="Firstname" className="form-control" id="Firstname" placeholder="e.g. Yusuf" required />
+                                               
                                             </div>
                                         </div>
                                         <div className="col-md-6 p-sm-0">
@@ -304,14 +307,23 @@ function Register() {
                                             </div>
                                         </>
                                     )}
-                                    <div className="form-group">
+                                        <div className='row'>
+                                  <div className="col-md-6 p-sm-0">
+                                  <div className="form-group">
                                         <label htmlFor="SpecialNeeds">People with special needs</label>
                                         <input type="text" name="SpecialNeeds" className="form-control" id="SpecialNeeds" placeholder="Nature of disability" />
                                     </div>
+                                    </div>
+                                    <div className="col-md-6 p-sm-0">
                                     <div className="form-group">
                                         <label htmlFor="SpecialSkills">Do you have any special skills?</label>
                                         <input type="text" name="SpecialSkills" className="form-control" id="SpecialSkills" placeholder="Specify your special skills" />
                                     </div>
+                                    </div>
+
+                             </div>
+                                   
+                                    
                                 </div>
                                 <div className="input-block">
                                     <div className="form-group">
